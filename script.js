@@ -17,7 +17,7 @@ function handleButtonClick() {
     const timestamps = timestampDisplay.value.split('\n');
     
     // Limit to 5 timestamps
-    if (timestamps.length >= 5) {
+    if (timestamps.length >= 20) {
         timestamps.shift(); // Remove the first timestamp
     }
 
