@@ -1,4 +1,3 @@
-
 function formatUTCDate(date) {
     const year = date.getUTCFullYear();
     const month = ('0' + (date.getUTCMonth() + 1)).slice(-2);
@@ -17,7 +16,7 @@ function handleButtonClick() {
     const timestamps = timestampDisplay.value.split('\n');
     
     // Limit to 5 timestamps
-    if (timestamps.length >= 20) {
+    if (timestamps.length >= 5) {
         timestamps.shift(); // Remove the first timestamp
     }
 
