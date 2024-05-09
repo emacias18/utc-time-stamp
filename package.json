@@ -1,0 +1,11 @@
+{
+  "name": "utc-time-stamp",
+  "version": "1.0.0",
+  "description": "Makes a utc time stamp whenver the button is pressed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enrique Macias Jr.",
+  "license": "ISC"
+}
